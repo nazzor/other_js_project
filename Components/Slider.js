@@ -36,7 +36,7 @@ function generateSlides(slides){
 
 export function initSlider(div){
     div.innerHTML = `
-        <div id="carouselExampleAutoplaying" class="carousel slide">
+        <div id="carouselExampleAutoplaying" class="carousel slide pt-5">
         <div class="carousel-inner">
             ${generateSlides(slides)}
         </div>
